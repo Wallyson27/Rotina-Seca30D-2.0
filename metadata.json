@@ -1,0 +1,7 @@
+{
+  "name": "Rotina Seca 30D - Alto Equilíbrio | Reloading",
+  "description": "Página de Vendas de Alta Conversão para o infoproduto Rotina Seca 30D, integrando Gatilhos Mentais e Gemini AI para simulação de rotina.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
