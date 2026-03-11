@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
           <div className="flex items-center gap-4 text-slate-400">
             <div className="flex -space-x-2">
               {[1,2,3,4].map(i => (
-                <img key={i} src={`https://i.pravatar.cc/100?img=${i+10}`} className="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluno" />
+                <img key={i} src={`https://randomuser.me/api/portraits/women/${i+10}.jpg`} className="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluna" />
               ))}
             </div>
             <p className="text-xs md:text-sm font-semibold tracking-wide uppercase">Destaque de hoje: +327 novos inscritos</p>
