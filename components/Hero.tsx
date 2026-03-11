@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10 text-center">
         <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 mb-8 animate-bounce">
           <span className="w-2 h-2 bg-red-500 rounded-full"></span>
-          <span className="text-white text-xs md:text-sm font-bold tracking-wider uppercase">Vagas Limitadas para a Turma de 2024</span>
+          <span className="text-white text-xs md:text-sm font-bold tracking-wider uppercase">Vagas Limitadas para a Turma de {new Date().getFullYear()}</span>
         </div>
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6">

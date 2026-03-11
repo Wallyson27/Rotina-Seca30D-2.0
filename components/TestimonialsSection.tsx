@@ -10,10 +10,10 @@ const TestimonialsSection: React.FC = () => {
       image: "https://picsum.photos/seed/user1/200/200"
     },
     {
-      name: "Rodrigo M.",
+      name: "Juliana M.",
       result: "-9.1kg",
-      text: "Os treinos de 15 minutos são matadores. Perdi a barriga de cerveja e agora me sinto com muito mais energia.",
-      image: "https://picsum.photos/seed/user2/200/200"
+      text: "Os treinos de 15 minutos são matadores. Perdi a barriga que me incomodava e agora me sinto com muito mais energia e disposição.",
+      image: "https://picsum.photos/seed/user4/200/200"
     },
     {
       name: "Carla P.",
