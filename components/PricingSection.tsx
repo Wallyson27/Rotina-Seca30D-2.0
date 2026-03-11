@@ -72,7 +72,7 @@ const PricingSection: React.FC = () => {
               </div>
 
               <a 
-                href="#" 
+                href="https://pay.kiwify.com.br/TAcTmV9" 
                 className="block w-full bg-red-600 hover:bg-red-700 text-white text-center font-black text-2xl md:text-3xl py-7 rounded-3xl shadow-2xl transition-all transform hover:-translate-y-2 glow-button uppercase"
               >
                 QUERO MEU ACESSO AGORA!
