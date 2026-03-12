@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotina Seca 30D | Método Alto Equilíbrio</title>
     
+    <!-- UTMify Pixel -->
+    <script>
+      window.pixelId = "69b2ebb28e2c8bfb7c6d546c";
+      var a = document.createElement("script");
+      a.setAttribute("async", "");
+      a.setAttribute("defer", "");
+      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+      document.head.appendChild(a);
+    </script>
+
+    <!-- UTMify UTMs -->
+    <script
+      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+      data-utmify-prevent-xcod-sck
+      data-utmify-prevent-subids
+      async
+      defer
+    ></script>
+    
     <!-- Scripts Externos -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,28 +63,465 @@
         ::-webkit-scrollbar-track { background: #0a0f1d; }
         ::-webkit-scrollbar-thumb { background: #ef4444; border-radius: 10px; }
     </style>
+<link rel="stylesheet" href="/index.css">
 </head>
 <body class="bg-white text-slate-900 selection:bg-red-600 selection:text-white">
-    <div id="root">Carregando a página...</div>
-    <script type="module" src="/index.tsx"></script>
 
-    <!-- UTMify Pixel -->
-    <script>
-      window.pixelId = "69b2ebb28e2c8bfb7c6d546c";
-      var a = document.createElement("script");
-      a.setAttribute("async", "");
-      a.setAttribute("defer", "");
-      a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
-      document.head.appendChild(a);
+    <!-- HEADER -->
+    <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-black text-xl italic shadow-lg">
+                    RS
+                </div>
+                <span class="font-black text-xl italic text-white tracking-tighter">
+                    ROTINA <span class="text-red-500 italic">SECA 30D</span>
+                </span>
+            </div>
+            <nav class="hidden md:flex items-center gap-8 text-sm uppercase tracking-widest font-bold">
+                <a href="#simulador" class="text-white/80 hover:text-white transition-colors">Benefícios</a>
+                <a href="#resultados" class="text-white/80 hover:text-white transition-colors">Resultados</a>
+                <a href="#oferta" class="bg-red-600 hover:bg-red-700 text-white py-2 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg">
+                    COMEÇAR AGORA
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-[#0a0f1d] overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full">
+            <div class="absolute top-[-10%] right-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[120px]"></div>
+            <div class="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-red-600/10 rounded-full blur-[100px]"></div>
+        </div>
+
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20 mb-8 animate-bounce">
+                <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                <span class="text-white text-xs md:text-sm font-bold tracking-wider uppercase">Vagas Limitadas para a Turma de 2026</span>
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6">
+                RECUPERE SUA <span class="text-red-500 italic">AUTOESTIMA</span> <br />
+                E DERRETA ATÉ 8KG EM 30 DIAS!
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Sem dietas malucas, sem passar horas na academia. O método <span class="text-white font-bold underline decoration-red-500">Rotina Seca 30D</span> é o caminho mais rápido para o corpo que você sempre quis.
+            </p>
+
+            <!-- Image Area -->
+            <div class="max-w-4xl mx-auto mb-12 group relative">
+                <div class="vsl-shadow bg-slate-800 rounded-3xl border-4 border-white/10 overflow-hidden relative">
+                    <img 
+                        src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2070&auto=format&fit=crop" 
+                        class="w-full h-auto max-h-[500px] object-cover opacity-90 transition-transform duration-700 hover:scale-105"
+                        alt="Resultado Rotina Seca"
+                    />
+                    <div class="absolute bottom-6 left-6 right-6 text-left">
+                       <div class="bg-red-600/90 backdrop-blur-sm text-white px-6 py-3 rounded-2xl inline-block font-black italic shadow-xl">
+                         MÉTODO COMPROVADO EM 30 DIAS
+                       </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-6">
+                <a href="#oferta" class="glow-button inline-block bg-red-600 hover:bg-red-700 text-white font-black text-xl md:text-3xl py-6 px-12 rounded-2xl transition-all transform hover:-translate-y-1 shadow-2xl">
+                    QUERO MEU ACESSO AGORA!
+                </a>
+                <div class="flex items-center gap-4 text-slate-400">
+                    <div class="flex -space-x-2">
+                        <img src="https://randomuser.me/api/portraits/women/11.jpg" class="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluna">
+                        <img src="https://randomuser.me/api/portraits/women/12.jpg" class="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluna">
+                        <img src="https://randomuser.me/api/portraits/women/13.jpg" class="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluna">
+                        <img src="https://randomuser.me/api/portraits/women/14.jpg" class="w-8 h-8 rounded-full border-2 border-slate-900" alt="aluna">
+                    </div>
+                    <p class="text-xs md:text-sm font-semibold tracking-wide uppercase">Destaque de hoje: +327 novos inscritos</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+            <svg class="relative block w-full h-[60px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- PROBLEM SECTION -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl font-black text-slate-900 mb-6 italic uppercase leading-tight">
+                        VOCÊ ESTÁ CANSADA DE <span class="text-red-600 underline decoration-blue-900">OLHAR NO ESPELHO</span> E NÃO GOSTAR DO QUE VÊ?
+                    </h2>
+                    <p class="text-xl text-slate-500 leading-relaxed">
+                        O pior não é o peso extra. É a falta de energia, a vergonha de colocar um biquíni e a frustração de tentar todas as dietas e falhar sempre no 5º dia.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-slate-50 p-8 rounded-3xl border-l-8 border-red-500 shadow-sm">
+                        <div class="text-red-500 mb-4">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-900 mb-3 uppercase">Efeito Sanfona Infinito</h3>
+                        <p class="text-slate-600">Perde 2kg na semana e ganha 3kg no final de semana porque o método era insustentável.</p>
+                    </div>
+                    
+                    <div class="bg-slate-50 p-8 rounded-3xl border-l-8 border-red-500 shadow-sm">
+                        <div class="text-red-500 mb-4">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" /></svg>
+                        </div>
+                        <h3 class="text-2xl font-black text-slate-900 mb-3 uppercase">Sem Tempo para Academia</h3>
+                        <p class="text-slate-600">Sua vida é corrida e você não tem 2 horas por dia para gastar em aparelhos chatos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SIMULADOR SECTION -->
+    <section id="simulador" class="py-24 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+               <h2 class="text-3xl md:text-5xl font-black text-blue-900 mb-4 italic uppercase">Simulador de Rotina Inteligente</h2>
+               <p class="text-slate-500 max-w-2xl mx-auto">Personalize seu perfil e descubra como o Rotina Seca 30D vai se adaptar ao seu dia a dia.</p>
+            </div>
+            <div class="max-w-4xl mx-auto bg-white rounded-[2rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
+                <div class="md:w-1/3 bg-blue-900 p-8 text-white">
+                    <h3 class="text-2xl font-black mb-6 italic">CONFIGURAÇÃO</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider mb-2 opacity-70">Meu Objetivo</label>
+                            <select id="goal-select" class="w-full bg-blue-800 border-none rounded-xl p-3 text-sm focus:ring-2 focus:ring-yellow-400 outline-none">
+                                <option value="perder-peso">Perder Peso Rápido</option>
+                                <option value="definir">Definição Muscular</option>
+                                <option value="saude">Saúde & Bem-Estar</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase tracking-wider mb-2 opacity-70">Nível Atual</label>
+                            <select id="level-select" class="w-full bg-blue-800 border-none rounded-xl p-3 text-sm focus:ring-2 focus:ring-yellow-400 outline-none">
+                                <option value="iniciante">Iniciante (Sedentário)</option>
+                                <option value="intermediario">Intermediário</option>
+                                <option value="avancado">Avançado</option>
+                            </select>
+                        </div>
+                        <button id="generate-btn" class="w-full bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-black py-4 rounded-xl shadow-lg transition-all mt-4 flex items-center justify-center gap-2">
+                            GERAR MINHA PRÉVIA
+                        </button>
+                    </div>
+                </div>
+
+                <div class="md:w-2/3 p-8 flex flex-col justify-center min-h-[400px]" id="simulator-output">
+                    <div class="text-center text-slate-400 flex flex-col items-center">
+                        <svg class="w-16 h-16 mb-4 opacity-20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4v2m0-6V4"></path></svg>
+                        <p class="font-medium italic">Selecione seu perfil e gere sua prévia personalizada acima!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="resultados" class="py-24 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-black text-blue-900 mb-4 italic uppercase">
+                    QUEM <span class="text-red-600">SUOU,</span> APROVOU!
+                </h2>
+                <p class="text-slate-500 max-w-2xl mx-auto">Veja os resultados reais de pessoas que decidiram mudar de vida com o nosso método exclusivo de 30 dias.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-slate-50 p-8 rounded-[2rem] relative shadow-sm border border-slate-100 hover:scale-105 transition-transform duration-300">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2">
+                        <img src="https://picsum.photos/seed/user1/200/200" class="w-16 h-16 rounded-full border-4 border-white shadow-lg" alt="Mariana">
+                    </div>
+                    <div class="mt-8 text-center">
+                        <div class="inline-block bg-red-600 text-white font-black px-4 py-1 rounded-full text-xs mb-4">RESULTADO: -7.4kg</div>
+                        <h4 class="text-lg font-bold text-blue-900 mb-4">Mariana S.</h4>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">"Eu nunca imaginei que conseguiria emagrecer tanto em tão pouco tempo. O Rotina Seca mudou minha forma de ver a dieta!"</p>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-slate-50 p-8 rounded-[2rem] relative shadow-sm border border-slate-100 hover:scale-105 transition-transform duration-300">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2">
+                        <img src="https://picsum.photos/seed/user4/200/200" class="w-16 h-16 rounded-full border-4 border-white shadow-lg" alt="Juliana">
+                    </div>
+                    <div class="mt-8 text-center">
+                        <div class="inline-block bg-red-600 text-white font-black px-4 py-1 rounded-full text-xs mb-4">RESULTADO: -9.1kg</div>
+                        <h4 class="text-lg font-bold text-blue-900 mb-4">Juliana M.</h4>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">"Os treinos de 15 minutos são matadores. Perdi a barriga que me incomodava e agora me sinto com muito mais energia e disposição."</p>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-slate-50 p-8 rounded-[2rem] relative shadow-sm border border-slate-100 hover:scale-105 transition-transform duration-300">
+                    <div class="absolute -top-6 left-1/2 -translate-x-1/2">
+                        <img src="https://picsum.photos/seed/user3/200/200" class="w-16 h-16 rounded-full border-4 border-white shadow-lg" alt="Carla">
+                    </div>
+                    <div class="mt-8 text-center">
+                        <div class="inline-block bg-red-600 text-white font-black px-4 py-1 rounded-full text-xs mb-4">RESULTADO: -5.2kg</div>
+                        <h4 class="text-lg font-bold text-blue-900 mb-4">Carla P.</h4>
+                        <p class="text-slate-600 text-sm italic leading-relaxed">"Sempre sofria com efeito sanfona. Com o Rotina Seca, finalmente entendi como manter o peso."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER SECTION -->
+    <section id="oferta" class="py-24 bg-slate-50 relative overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl font-black text-slate-900 mb-4 uppercase italic leading-tight">ISSO É TUDO O QUE VOCÊ VAI LEVAR:</h2>
+                    <p class="text-slate-500 font-bold uppercase tracking-widest text-sm">Valor total se comprado separadamente: <span class="text-red-600 line-through">R$ 297,00</span></p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-start">
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center p-6 bg-white rounded-3xl border border-slate-100 shadow-sm">
+                            <div>
+                                <h4 class="font-bold text-blue-900">Guia Principal Rotina Seca 30D</h4>
+                                <p class="text-xs text-slate-500">O passo a passo alimentar e de hábitos.</p>
+                            </div>
+                            <span class="text-slate-400 line-through font-bold text-sm">R$ 97,00</span>
+                        </div>
+                        <div class="flex justify-between items-center p-6 bg-white rounded-3xl border border-slate-100 shadow-sm">
+                            <div>
+                                <h4 class="font-bold text-blue-900">Manual de Treinos HIIT</h4>
+                                <p class="text-xs text-slate-500">Treinos de 15 min para fazer em qualquer lugar.</p>
+                            </div>
+                            <span class="text-slate-400 line-through font-bold text-sm">R$ 67,00</span>
+                        </div>
+                        <div class="flex justify-between items-center p-6 bg-white rounded-3xl border border-slate-100 shadow-sm">
+                            <div>
+                                <h4 class="font-bold text-red-600">BÔNUS: Grupo VIP e Receitas Doces Fit</h4>
+                                <p class="text-xs text-slate-500">Comunidade e Lista de Compras Econômica.</p>
+                            </div>
+                            <span class="text-slate-400 line-through font-bold text-sm">R$ 133,00</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-900 rounded-[3rem] p-8 md:p-12 text-white shadow-2xl relative">
+                        <div class="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-2 rounded-full font-black text-sm rotate-12 glow-button">83% OFF</div>
+                        <div class="text-center mb-10">
+                            <p class="text-blue-300 font-bold uppercase tracking-widest text-sm mb-4">OFERTA EXPIRA EM:</p>
+                            <div id="countdown" class="text-4xl font-black font-mono bg-blue-800/50 inline-block px-6 py-2 rounded-xl border border-blue-700">24:59</div>
+                        </div>
+                        <div class="text-center space-y-2 mb-10">
+                            <span class="text-slate-400 line-through text-2xl">De R$ 119,90</span>
+                            <div class="flex flex-col items-center">
+                                <span class="text-sm font-bold text-blue-300">POR APENAS</span>
+                                <div class="flex items-end justify-center">
+                                    <span class="text-2xl font-bold mb-4">R$</span>
+                                    <span class="text-7xl md:text-8xl font-black text-yellow-400 italic leading-none">19,90</span>
+                                </div>
+                                <p class="text-blue-200 text-sm mt-4 font-bold">PAGAMENTO ÚNICO - ACESSO VITALÍCIO</p>
+                            </div>
+                        </div>
+                        <a href="https://pay.kiwify.com.br/TAcTmV9" target="_blank" class="block w-full bg-red-600 hover:bg-red-700 text-white text-center font-black text-2xl md:text-3xl py-7 rounded-3xl shadow-2xl transition-all transform hover:-translate-y-2 glow-button uppercase">
+                            QUERO MEU ACESSO AGORA!
+                        </a>
+                        <div class="mt-8 flex items-center justify-center gap-6 opacity-60">
+                            <div class="flex flex-col items-center gap-1 text-center">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" /></svg>
+                                <span class="text-[10px] font-bold">PAGAMENTO SEGURO</span>
+                            </div>
+                            <div class="flex flex-col items-center gap-1 text-center">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M13 2v8h8c0-4.42-3.58-8-8-8zM11 2c-4.42 0-8 3.58-8 8h8V2zm-8 10c0 4.42 3.58 8 8 8v-8H3zm10 8c4.42 0 8-3.58 8-8h-8v8z" /></svg>
+                                <span class="text-[10px] font-bold">ACESSO IMEDIATO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Guarantee Box -->
+                <div class="mt-16 bg-white p-8 md:p-12 rounded-[3rem] border-2 border-dashed border-slate-200 flex flex-col md:flex-row items-center gap-8 shadow-sm">
+                    <div class="flex-shrink-0 relative">
+                        <div class="w-32 h-32 rounded-full bg-blue-50 flex items-center justify-center text-blue-900 border-4 border-blue-900">
+                            <span class="text-4xl font-black">7</span>
+                            <span class="text-xs font-bold mt-4 ml-1 uppercase">DIAS</span>
+                        </div>
+                        <div class="absolute -bottom-2 -right-2 bg-yellow-400 p-2 rounded-full border-2 border-white shadow-lg">
+                            <svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7" /></svg>
+                        </div>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-2xl font-black text-blue-900 mb-3 uppercase">RISCO ZERO PARA VOCÊ</h3>
+                        <p class="text-slate-600 leading-relaxed">Eu tenho tanta confiança no meu método que te dou uma garantia incondicional de 7 dias. Se você não gostar do sabor de uma das receitas ou achar que os treinos não são para você, eu devolvo 100% do seu dinheiro. Sem perguntas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#0a0f1d] text-slate-500 py-16 border-t border-white/5">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex items-center justify-center gap-2 mb-8 opacity-50 grayscale brightness-200">
+                <div class="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center text-white font-black text-xl italic">RS</div>
+                <span class="font-black text-2xl italic text-white tracking-tighter">ROTINA <span class="text-red-600">SECA 30D</span></span>
+            </div>
+            <nav class="flex flex-wrap justify-center gap-8 text-xs font-bold uppercase tracking-widest mb-12">
+                <a href="#" class="hover:text-white transition-colors">Termos e Condições</a>
+                <a href="#" class="hover:text-white transition-colors">Políticas de Privacidade</a>
+                <a href="#" class="hover:text-white transition-colors">Suporte</a>
+            </nav>
+            <p class="text-[10px] leading-relaxed opacity-40 uppercase tracking-widest">© 2026 ALTO EQUILÍBRIO - TODOS OS DIREITOS RESERVADOS</p>
+        </div>
+    </footer>
+
+    <!-- STICKY MOBILE BAR -->
+    <div class="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-slate-200 shadow-2xl z-50 flex items-center justify-between">
+        <div>
+            <p class="text-xs text-slate-500 line-through">De R$ 119,90</p>
+            <p class="text-lg font-bold text-red-600">Por R$ 19,90</p>
+        </div>
+        <a href="#oferta" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition-all text-sm transform active:scale-95">
+            QUERO SECAR AGORA
+        </a>
+    </div>
+
+    <!-- Script para Gemini API e Funcionalidades -->
+    <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0",
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+    <script type="module">
+        import { GoogleGenAI, Type } from "@google/genai";
+
+        // Variável de ambiente simulada (process.env.API_KEY é injetado pelo ambiente)
+        const API_KEY = ""; // No ambiente real, process.env.API_KEY está disponível
+
+        // --- HEADER SCROLL ---
+        const header = document.getElementById('main-header');
+        window.onscroll = () => {
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+                header.classList.remove('py-4');
+                header.classList.add('py-2');
+            } else {
+                header.classList.remove('header-scrolled');
+                header.classList.add('py-4');
+                header.classList.remove('py-2');
+            }
+        };
+
+        // --- COUNTDOWN TIMER ---
+        let time = 1500;
+        const countdownEl = document.getElementById('countdown');
+        setInterval(() => {
+            if (time > 0) {
+                time--;
+                const mins = Math.floor(time / 60);
+                const secs = time % 60;
+                countdownEl.innerText = `${mins}:${secs.toString().padStart(2, '0')}`;
+            }
+        }, 1000);
+
+        // --- SIMULADOR DE ROTINA (GEMINI API) ---
+        const generateBtn = document.getElementById('generate-btn');
+        const simulatorOutput = document.getElementById('simulator-output');
+
+        generateBtn.onclick = async () => {
+            const goal = document.getElementById('goal-select').value;
+            const level = document.getElementById('level-select').value;
+
+            generateBtn.disabled = true;
+            generateBtn.innerHTML = `<div class="w-6 h-6 border-4 border-blue-900/30 border-t-blue-900 rounded-full animate-spin"></div>`;
+            
+            simulatorOutput.innerHTML = `
+                <div class="space-y-4 animate-pulse">
+                    <div class="h-8 bg-slate-100 rounded w-1/3"></div>
+                    <div class="h-4 bg-slate-100 rounded w-full"></div>
+                    <div class="h-4 bg-slate-100 rounded w-full"></div>
+                    <div class="h-4 bg-slate-100 rounded w-2/3"></div>
+                </div>
+            `;
+
+            try {
+                // Em um ambiente real, usamos process.env.API_KEY
+                const ai = new GoogleGenAI({ apiKey: window.process?.env?.API_KEY || '' });
+                const response = await ai.models.generateContent({
+                    model: 'gemini-3-flash-preview',
+                    contents: `Gere uma prévia de 1 dia de rotina para o infoproduto "Rotina Seca 30D". Objetivo: ${goal}, Nível: ${level}. Retorne JSON com dayLabel, breakfast, lunch, dinner, exercise, healthTip.`,
+                    config: {
+                        responseMimeType: "application/json",
+                        responseSchema: {
+                            type: Type.OBJECT,
+                            properties: {
+                                dayLabel: { type: Type.STRING },
+                                breakfast: { type: Type.STRING },
+                                lunch: { type: Type.STRING },
+                                dinner: { type: Type.STRING },
+                                exercise: { type: Type.STRING },
+                                healthTip: { type: Type.STRING },
+                            },
+                            required: ["dayLabel", "breakfast", "lunch", "dinner", "exercise", "healthTip"]
+                        }
+                    }
+                });
+
+                const data = JSON.parse(response.text);
+                
+                simulatorOutput.innerHTML = `
+                    <div class="animate-in fade-in slide-in-from-bottom-4 duration-500">
+                        <div class="flex items-center gap-3 mb-6">
+                            <span class="bg-red-100 text-red-600 font-bold px-3 py-1 rounded-lg text-xs uppercase italic">Exemplo ${data.dayLabel}</span>
+                            <div class="h-[2px] flex-grow bg-slate-100"></div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="space-y-4">
+                                <div class="bg-slate-50 p-4 rounded-xl border-l-4 border-green-500">
+                                    <h4 class="text-xs font-black text-slate-400 uppercase mb-1">Café da Manhã</h4>
+                                    <p class="text-sm font-semibold text-slate-700">${data.breakfast}</p>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl border-l-4 border-yellow-500">
+                                    <h4 class="text-xs font-black text-slate-400 uppercase mb-1">Almoço</h4>
+                                    <p class="text-sm font-semibold text-slate-700">${data.lunch}</p>
+                                </div>
+                                <div class="bg-slate-50 p-4 rounded-xl border-l-4 border-red-500">
+                                    <h4 class="text-xs font-black text-slate-400 uppercase mb-1">Jantar</h4>
+                                    <p class="text-sm font-semibold text-slate-700">${data.dinner}</p>
+                                </div>
+                            </div>
+                            <div class="bg-blue-50 p-6 rounded-2xl border border-blue-100 flex flex-col justify-between">
+                                <div>
+                                    <h4 class="text-xs font-black text-blue-400 uppercase mb-3 flex items-center gap-2">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                        Treino do Dia
+                                    </h4>
+                                    <p class="text-base font-bold text-blue-900 leading-tight">${data.exercise}</p>
+                                </div>
+                                <div class="mt-6 pt-4 border-t border-blue-200">
+                                    <p class="text-[10px] uppercase font-black text-blue-300 mb-1">Dica de Saúde</p>
+                                    <p class="text-xs italic text-blue-700">"${data.healthTip}"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-8 text-xs text-center text-slate-400 italic">*Esta é apenas uma prévia gerada por IA.</p>
+                    </div>
+                `;
+            } catch (e) {
+                console.error(e);
+                simulatorOutput.innerHTML = `<p class="text-red-500 font-bold text-center">Ocorreu um erro ao gerar a prévia. Tente novamente.</p>`;
+            } finally {
+                generateBtn.disabled = false;
+                generateBtn.innerHTML = `GERAR MINHA PRÉVIA`;
+            }
+        };
     </script>
-
-    <!-- UTMify UTMs -->
-    <script
-      src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-      data-utmify-prevent-xcod-sck
-      data-utmify-prevent-subids
-      async
-      defer
-    ></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
