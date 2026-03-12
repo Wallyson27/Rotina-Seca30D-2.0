@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
 
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-[1.1] mb-6">
           RECUPERE SUA <span className="text-red-500 italic">AUTOESTIMA</span> <br />
-          E DERRETA ATÉ 8KG EM 30 DIAS!
+          E DERRETA ATÉ 5KG EM 30 DIAS!
         </h1>
         
         <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed">
